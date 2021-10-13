@@ -93,3 +93,40 @@ elif condition_b:
 else:
     # Some code (run if condition_a is False AND condition_b is False)
 ```
+
+## 🔄 `while` loops
+
+`while` loops run some code **while** some condition is `True`.
+
+```python
+i = 0
+while i < 4:
+    print(i)
+    i += 1  # Increment i by 1 (add 1 to i)
+# Will print 0, 1, 2, 3
+```
+
+Syntax:
+
+```python
+while CONDITION:
+    SOME_CODE
+```
+
+`SOME_CODE` will be run `while` `CONDITION` is `True`.
+
+## 🎲 Random numbers
+
+To generate random integers in Python, we use the `random` module's `randint` function.
+
+Firstly, import the `random` module.
+
+```python
+import random
+```
+
+Now we can use `random.randint(a, b)` to get a random number between `a` and `b` (including `a` and `b`).
+
+```python
+print(random.randint(1, 3))  # Can be 1, 2, or 3
+```
