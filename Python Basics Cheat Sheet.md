@@ -130,3 +130,31 @@ Now we can use `random.randint(a, b)` to get a random number between `a` and `b`
 ```python
 print(random.randint(1, 3))  # Can be 1, 2, or 3
 ```
+
+## 🤖 Functions
+
+Functions are blocks of code that run when called.
+
+```python
+def function_name(inputs):
+    do_some_things
+    return some_data  # Optional
+```
+
+Example:
+
+```python
+def f(x):
+    return x ** 2  # x squared
+
+print(f(2))  # 4
+print(f(9))  # 81
+```
+
+## 📃 Lists
+
+The `list` data type stores collections of data.
+
+```python
+my_tasks = ["stay alive", "do homework", "drink water", "eat"]
+```
